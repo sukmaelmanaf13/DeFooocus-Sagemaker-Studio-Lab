@@ -11,7 +11,7 @@
 
 ## Overview
 
-Selamat datang di panduan instalasi Fooocus di Sagemaker Studio Lab. Panduan ini akan memandu Anda melalui langkah-langkah untuk menyiapkan dan menjalankan Fooocus dengan mudah di lingkungan Sagemaker Anda. Cukup ikuti petunjuk di bawah ini untuk memulai.
+Selamat datang di panduan instalasi Fooocus di Sagemaker Studio Lab. Panduan ini akan memandu Anda melalui langkah-langkah untuk menyiapkan dan menjalankan Fooocus dengan mudah di lingkungan Sagemaker Anda. Cukup ikuti petunjuk di bawah ini untuk memulai. Default Model menggunakan "RealVisXL" dengan 4 LoRa tambahan didalamnya.
 
 ## Petunjuk Instalasi
 
