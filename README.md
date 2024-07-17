@@ -7,27 +7,27 @@
  </tr>
 </table>
 
-# Petunjuk Instalasi Fooocus untuk Sagemaker Studio Lab
+# Petunjuk Instalasi DeFooocus untuk Sagemaker Studio Lab
 
 ## Overview
 
-Selamat datang di panduan instalasi Fooocus di Sagemaker Studio Lab. Panduan ini akan memandu Anda melalui langkah-langkah untuk menyiapkan dan menjalankan Fooocus dengan mudah di lingkungan Sagemaker Anda. Cukup ikuti petunjuk di bawah ini untuk memulai. Default Model menggunakan "RealVisXL" dengan 4 LoRa tambahan didalamnya.
+Selamat datang di panduan instalasi DeFooocus di Sagemaker Studio Lab. Panduan ini akan memandu Anda melalui langkah-langkah untuk menyiapkan dan menjalankan Fooocus dengan mudah di lingkungan Sagemaker Anda. Cukup ikuti petunjuk di bawah ini untuk memulai. Default Model menggunakan "RealVisXL" dengan 4 LoRa tambahan didalamnya.
 
 ## Petunjuk Instalasi
 
-1. **Clone the Repository**: Mulailah dengan mengkloning repositori Fooocus ke lingkungan Sagemaker Studio Lab Anda. Anda dapat melakukannya dengan menjalankan perintah berikut:
+1. **Clone the Repository**: Mulailah dengan mengkloning repositori DeFooocus ke lingkungan Sagemaker Studio Lab Anda. Anda dapat melakukannya dengan menjalankan perintah berikut:
 
    ```bash
-   git clone https://github.com/sukmaelmanaf13/Fooocus-Sagemaker-Studio-Lab.git
+   git clone https://github.com/sukmaelmanaf13/DeFooocus-Sagemaker-Studio-Lab.git
    ```
 
 2. **Navigate to the Repository**: Setelah repositori dikloning, navigasikan ke direktori repositori:
 
    ```bash
-   cd Fooocus-Sagemaker-Studio-Lab
+   cd DeFooocus-Sagemaker-Studio-Lab
    ```
 
-3. **Run the Installation Script**: Jalankan skrip instalasi `start.sh` untuk mengatur Fooocus:
+3. **Run the Installation Script**: Jalankan skrip instalasi `start.sh` untuk mengatur DeFooocus:
 
    ```bash
    sh start.sh
