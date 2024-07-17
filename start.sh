@@ -3,11 +3,11 @@
 # Set this variable to true to install to the temporary folder, or to false to have the installation in permanent storage.
 install_in_temp_dir=true
 
-if [ ! -d "Fooocus" ]
+if [ ! -d "DeFooocus" ]
 then
-  git clone https://github.com/sukmaelmanaf13/Fooocus.git
+  git clone https://github.com/sukmaelmanaf13/DeFooocus.git
 fi
-cd Fooocus
+cd DeFooocus
 git pull
 if [ "$install_in_temp_dir" = false ]
 then
