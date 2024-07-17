@@ -46,7 +46,7 @@ def find_and_terminate_process(port):
         
 def run_app(env):
     #-+subprocess.run("pwd", shell=False, env=env)
-    cmd = 'python Fooocus/entry_with_update.py --always-high-vram --preset realpic> log.txt & ssh -o StrictHostKeyChecking=no -p 80 -R0:localhost:7865 a.pinggy.io > log.txt'
+    cmd = 'python DeFooocus/entry_with_update.py --always-high-vram --preset realpic> log.txt & ssh -o StrictHostKeyChecking=no -p 80 -R0:localhost:7865 a.pinggy.io > log.txt'
     subprocess.run(cmd, shell=True, env=env)
 
 def print_url():
@@ -152,7 +152,7 @@ def main():
             
     save_data(saved_data)
     
-    cmd = 'python Fooocus/entry_with_update.py --always-high-vram'
+    cmd = 'python DeFooocus/entry_with_update.py --always-high-vram --preset realpic'
     
     print("Tunnel: " + args.tunnel)
     if args.tunnel == '3':
